@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bgimg{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(photo/domestic.jpg);
+	background-size: 100% 100%;
+	height: 50vh;
+	width: 100%;
+}
+.menu{
+	width: 100%;
+	height: 85px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+	width: 25%;
+	line-height: 80px;
+	float: left;
+}
+.leftmenu h2{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+.rightmenu{
+	width: 75%;
+	float: right;
+}
+.rightmenu ul{margin-left: 400px;}
+.rightmenu ul li{
+	display: inline-block;
+	list-style: none;
+	color: white;
+	font-weight: bold;
+	line-height: 80px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+#first{color: orange;}
+.rightmenu ul li:hover{
+	color: orange;
+	transform: scale(1.2);
+}
+.min{
+	margin-top: 300px;
+}
+.boom{
+    padding-top: 2em;
+    padding-left: 5em;
+    font-size: 25px;
+}
+.bot{
+    padding-left: 8em;
+    padding-top: 2em;
+    width: 80vw;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    text-justify:inter-word;
+}
+.tb{
+	margin-top: 600px;
+	height: 30vh;
+	width: 1455px;
+	background-color:rgba(0,0,0,0.6);
+	display: flex;
+	padding: 2em;
+}
+.tb div{margin-left: 8em;
+
+.bl1 li:last-child{list-style: none;} 
+.bl2 li:last-child{list-style: none;}
+
+.tb h2{color: white;}
+li:hover{ color: aqua; }
+.pay{
+	margin: 1em;
+	height: 3vh;
+	width: 10vw;
+	border: none;
+}
+.pay:hover{
+	background-color: yellow;
+	color:blue;}
+.check{
+	margin: 1em;
+	height: 3vh;
+	width: 12vw;
+	border: none;
+}

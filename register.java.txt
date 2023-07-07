@@ -1,0 +1,50 @@
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class register extends HttpServlet {
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        response.setContentType("text/html;charset=UTF-8");
+        try {
+            PrintWriter out = response.getWriter();
+            String s1=request.getParameter("a1"); 
+            String s2=request.getParameter("a2");
+            String s3=request.getParameter("a3");
+            String s4=request.getParameter("a4");
+            String s5=request.getParameter("a5");
+            String s6=request.getParameter("a6");
+            String s7=request.getParameter("a7");
+            String s8=request.getParameter("a8");
+            String s9=request.getParameter("a9");
+            String s10=request.getParameter("a10");
+            
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","pintuchapu");
+            PreparedStatement stmt=con.prepareStatement("insert into register values(?,?,?,?,?,?,?,?,?,?)");
+            stmt.setString(1,s1);
+            stmt.setString(2,s2);
+            stmt.setString(3,s3);
+            stmt.setString(4,s4);
+            stmt.setString(5,s5);
+            stmt.setString(6,s6);
+            stmt.setString(7,s7);
+            stmt.setString(8,s8);
+            stmt.setString(9,s9);
+            stmt.setString(10,s10);
+            stmt.executeUpdate();
+            out.print("hello");
+        }catch(Exception e){}
+    }
+
+}

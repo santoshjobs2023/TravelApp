@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.deo{ 
+    height: 10vh;
+    background-color: rgba(0,0,0,0.8);
+    overflow: hidden;
+}
+.deo ul{
+     list-style-type:none;
+     float: right;
+}
+.deo ul li{
+    display: inline-block;
+}
+.deo ul li a{
+    text-decoration: none;
+    padding: 20px 30px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-weight: 700;   
+}
+.butt{
+    border: 0;
+    height: 25px;
+    width: 50px;
+}
+.butt:hover{
+    background-color: blue;
+}
+.deo ul li:hover{
+    transform: scale(1.1);
+}
+.mainjoy{
+    border-bottom: 0.5px solid black;
+}
+.mainjoy h2{ 
+    padding: 1em;
+}
+.gp
+{
+    box-shadow:inset 0 0 10px solid black;
+    height: 8em;
+    width: 100%;
+}
+.joy{
+    height: 20vh;
+    display: flex;
+}
+
+.joy2{
+    padding-left: 1em;
+}
+.to{
+    height: 10vh;
+    padding: 1em;
+}
+.to td:nth-child(1){
+    padding-left: 0;
+}
+.to td{
+    padding-left: 6em;
+}
+
+
+
+
+.input-group{
+    position: relative;
+    margin: 40px;
+}
+.joy input{
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;
+    
+}
+.input:focus{
+    outline: none;
+}
+lable{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    transition: 0.3s ease all;
+}
+input:focus ~ lable,
+input:valid ~ lable{
+    top: -20px;
+    font-size: 14px;
+    color: black;
+}
+
+
+
+.cool{
+    display: flex;
+}
+.joy3{
+    width: 23vw; 
+}
+.joy3 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+.joy4{
+    width: 25vw;
+}
+.main-cool{
+    height: 38vh;
+    display: flex;
+}
+
+.and1{
+    height: 13vh;
+    display: flex;
+}
+.and2 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 180px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+.and3 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+.and4 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 565px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+.and5 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+.and6 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 250px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+.nor{
+    width: 50vw;
+    display: flex;
+}
+.joy4 input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+
+.imp input{
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    height: 40px;
+    width: 615px;
+    border: 1px solid black;
+    background: transparent;
+    color:black;   
+}
+.coli{
+    padding-top: 30px;
+    padding-left: 610px;
+    height: 12vh;
+}
+.enquiry{
+    height: 40px;
+    width: 65px;
+    border: 0;
+
+    background-color: yellow;
+}
+.now{
+    height: 40px;
+    width: 65px;
+    border: 0;
+
+    background-color:yellow;
+}
+.coli td{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
